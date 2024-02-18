@@ -1,0 +1,70 @@
+.project-modal {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 20px;
+    color: rgba($color: #FFFFFF, $alpha: 0.7);
+    &__header {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+    }
+    &__logo {
+        object-fit: contain;
+        object-position: center;
+        width: 100%;
+        height: 100%;
+        max-height: 32px;
+        max-width: 32px;
+
+        @media screen and (min-width: $breakpoint-md) {
+            max-height: 52px;
+            max-width: 52px;
+        }
+        
+        color: $quaternary-color;
+    }
+    &__image {
+        object-fit: contain;
+        object-position: center;
+        width: 100%;
+        height: 100%;
+        max-height: 300px;
+        max-width: 300px;
+        display: block !important;
+        margin: 0 auto;
+        color: $quaternary-color;
+        @media screen and (min-width: $breakpoint-md) {
+            max-height: 500px;
+            max-width: 500px;
+            padding: 0 8px;
+        }
+    }
+    &__title {
+        font-size: $font-size-sm-2;
+        color: $quaternary-color;
+
+        @media screen and (min-width: $breakpoint-md) {
+            font-size: $font-size-md-2;
+        }
+    }
+    &__close {
+        align-self: flex-start;
+        background-color: transparent;
+        border: none;
+        font-size: $font-size-md-2;
+        font-weight: $font-weight-light;
+        color: $quaternary-color;
+        opacity: 1;
+        margin-left: auto;
+
+        transition: all 0.15s ease-in-out;
+        &:hover {
+            transition: all 0.15s ease-in-out;
+            opacity: 0.75;
+        }
+
+    }
+}

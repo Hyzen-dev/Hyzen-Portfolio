@@ -1,0 +1,57 @@
+.service-modal {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 20px;
+    font-weight: $font-weight-thin;
+    color: rgba($color: #FFFFFF, $alpha: 0.7);
+    ol {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        list-style: initial;
+        padding-left: 20px;
+    }
+    li {
+        list-style: decimal;
+        padding-left: 20px;
+
+    }
+    &__header {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    &__icon {
+        font-size: $font-size-md-3;
+        color: $quaternary-color;
+        @media screen and (min-width: $breakpoint-md) {
+            font-size: $font-size-md-2;
+        }
+    }
+    &__title {
+        font-size: $font-size-sm-2;
+        color: $quaternary-color;
+        font-weight: $font-weight-bold;
+        @media screen and (min-width: $breakpoint-md) {
+            font-size: $font-size-md-1;
+        }
+    }
+    &__close {
+        margin-left: auto;
+        align-self: flex-start;
+        background-color: transparent;
+        border: none;
+        font-size: $font-size-md-2;
+        font-weight: $font-weight-light;
+        color: $quaternary-color;
+        opacity: 1;
+
+        transition: all 0.15s ease-in-out;
+        &:hover {
+            transition: all 0.15s ease-in-out;
+            opacity: 0.75;
+        }
+
+    }
+}

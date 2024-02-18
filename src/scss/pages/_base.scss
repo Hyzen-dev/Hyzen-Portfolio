@@ -1,0 +1,14 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    height: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    &__content {
+        // position: relative;
+        padding: 0 20px;
+        // margin-top: 42px;
+        margin-top: auto;
+    }
+}

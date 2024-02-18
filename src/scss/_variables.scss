@@ -1,0 +1,52 @@
+// Colors
+$primary-color: #5A0FAE;
+$secondary-color: #28094B;
+$tertiary-color: #F2F2F2;
+$quaternary-color: #FFFFFF;
+$quinary-color: #000000;
+$septenary-color: #009800;
+$error-color: #ac0000;
+$scrollbar-color: #271939;
+$scrollbar-hover-color: #3C2C5E;
+$scrollbar-active-color: #5A0FAE;
+$scrollbar-background-color: #7b5588;
+
+$background-gradient: linear-gradient(45deg, #18072B 0%, #420781 100%);
+
+// Fonts
+$primary-font: 'Public Sans', sans-serif;
+
+// Font Sizes
+// 14px
+$font-size-sm-1: 0.875rem;
+// 16px
+$font-size-sm-2: 1rem;
+// 18px
+$font-size-md-1: 1.125rem;
+// 20px
+$font-size-md-2: 1.25rem;
+// 24px
+$font-size-md-3: 1.5rem;
+// 32px
+$font-size-lg-1: 2rem;
+// 40px
+$font-size-lg-2: 2.5rem;
+// 48px
+$font-size-lg-3: 3rem;
+// 64px
+$font-size-xl-1: 4rem;
+// 72px
+$font-size-xl-2: 4.5rem;
+
+// Font Weights
+$font-weight-thin: 100;
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-bold: 700;
+$font-weight-black: 900;
+
+// Breakpoints
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
